@@ -158,7 +158,7 @@ export default function HomePage() {
                 <div className="relative">
                   <div className="w-80 h-auto md:w-96 md:h-auto rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl">
                     <img
-                      src="/prof_headshot_cropped copy 2.png"
+                      src="/andrew-amante-headshot.jpg"
                       alt="Andrew Amante - Professional headshot of a computer engineer"
                       className="w-full h-auto object-contain"
                     />
