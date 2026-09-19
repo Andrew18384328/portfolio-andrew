@@ -75,27 +75,20 @@ const timelineData = [
     description: "Customized a steering wheel PCB in Altium with integrated microcontroller, buttons, and LEDs, for driver input and status indications.",
   },
   {
-    year: "August 2025 – December 2025",
-    title: "Electrical/Computer Engineer",
-    organization: "Great Combination Enterprise (GCE)",
-    type: "experience",
-    description:
-      "Worked on a student engineering team to automate air filter pleat separation, handling both the compaction mechanism and the 24V power distribution.",
-  },
-  {
     year: "January 2026 – June 2026",
-    title: "Electrical Engineering",
-    organization: "Lumafield",
+    title: "Electrical Engineering Co-op",
+    organization: "Bechtel Medical Inc.",
     type: "experience",
     description:
       "Worked on a student engineering team to automate air filter pleat separation, handling both the compaction mechanism and the 24V power distribution.",
   },
   {
-    year: "2025",
-    title: "Chemical Engineering Graduate",
-    organization: "Northeastern University",
-    type: "education",
-    description: "Bachelor of Science in Chemical Engineering, Summa Cum Laude, Honors",
+    year: "August 2025 – Present",
+    title: "Electrical/Computer Engineer",
+    organization: "Generate Product Development Studio",
+    type: "experience",
+    description:
+      "Worked on a student engineering team to automate air filter pleat separation, handling both the compaction mechanism and the 24V power distribution.",
   },
 ]
 
@@ -455,7 +448,7 @@ export default function HomePage() {
 
           {/* Interactive Timeline */}
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-[#1D2721] mb-8 text-center">Education & Experience</h3>
+            <h3 className="text-2xl font-bold text-[#1D2721] mb-8 text-center">Experience</h3>
             <div className="relative">
               {/* Timeline line */}
               <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-[#A8B79D] rounded-full"></div>
