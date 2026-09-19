@@ -125,29 +125,29 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
+      <nav className="fixed top-0 w-full bg-[#F1F2EA]/90 backdrop-blur-sm border-b border-[#D7DED1] z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="font-bold text-xl text-[#0B3D91] hover:text-[#17A2B8] transition-colors cursor-pointer"
+              className="font-bold text-xl text-[#1D2721] hover:text-[#A8B79D] transition-colors cursor-pointer"
             >
               Anthony Zappala
             </button>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="text-gray-700 hover:text-[#0B3D91] transition-colors">
+              <a href="#about" className="text-[#465047] hover:text-[#1D2721] transition-colors">
                 About
               </a>
-              <a href="#projects" className="text-gray-700 hover:text-[#0B3D91] transition-colors">
+              <a href="#projects" className="text-[#465047] hover:text-[#1D2721] transition-colors">
                 Projects
               </a>
-              <a href="#resume" className="text-gray-700 hover:text-[#0B3D91] transition-colors">
+              <a href="#resume" className="text-[#465047] hover:text-[#1D2721] transition-colors">
                 Resume
               </a>
-              <Link href="/references" className="text-gray-700 hover:text-[#0B3D91] transition-colors">
+              <Link href="/references" className="text-[#465047] hover:text-[#1D2721] transition-colors">
                 References
               </Link>
-              <a href="#contact" className="text-gray-700 hover:text-[#0B3D91] transition-colors">
+              <a href="#contact" className="text-[#465047] hover:text-[#1D2721] transition-colors">
                 Contact
               </a>
             </div>
@@ -156,7 +156,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0B3D91] to-[#17A2B8] text-white relative">
+      <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#394634] via-[#495741] to-[#697A61] text-white relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Headshot */}
@@ -170,7 +170,7 @@ export default function HomePage() {
                       className="w-full h-auto object-contain"
                     />
                   </div>
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#17A2B8]/30 to-transparent blur-xl -z-10 scale-110"></div>
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#A8B79D]/30 to-transparent blur-xl -z-10 scale-110"></div>
                 </div>
               </div>
             </div>
@@ -181,17 +181,17 @@ export default function HomePage() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">Anthony Zappala</h1>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-100">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-blue-100">Chemical Engineer</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-[#E1E8DA]">Chemical Engineer</h2>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-200">
-                <p className="text-lg md:text-xl lg:text-2xl mb-12 leading-relaxed text-blue-50">
+                <p className="text-lg md:text-xl lg:text-2xl mb-12 leading-relaxed text-[#EEF2E9]">
                   Recent chemical engineering graduate passionate about sustainability, process design, and automation.
                 </p>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-300">
                 <Button
                   size="lg"
-                  className="bg-[#17A2B8] hover:bg-[#138496] text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="bg-[#A8B79D] hover:bg-[#879A7A] text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
                   onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
                 >
                   View My Projects
@@ -208,18 +208,18 @@ export default function HomePage() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-gray-50">
+      <section id="about" className="py-20 bg-[#F1F2EA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D91] mb-6">About Me</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D2721] mb-6">About Me</h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+              <p className="text-lg md:text-xl text-[#465047] leading-relaxed mb-8">
                 A recent Chemical Engineering graduate from Northeastern University with a passion for developing
                 innovative solutions that connect traditional chemical processes with modern, sustainable engineering
                 practices. My experience spans process design, simulation, and optimization, with a strong focus on
                 sustainability and energy efficiency.
               </p>
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+              <p className="text-lg md:text-xl text-[#465047] leading-relaxed">
                 Using advanced simulation tools and data-driven approaches, I work on challenges spanning
                 electrochemical systems and industrial process design. My projects combine technical analysis with
                 practical, results-oriented strategies, drawing from both academic research and industry experience
@@ -234,7 +234,7 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path
                         strokeLinecap="round"
@@ -244,7 +244,7 @@ export default function HomePage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-[#0B3D91] mb-4">Technical Skills</h3>
+                  <h3 className="text-xl font-bold text-[#1D2721] mb-4">Technical Skills</h3>
                 </div>
                 <div className="space-y-3">
                   {[
@@ -256,8 +256,8 @@ export default function HomePage() {
                     "Materials Characterization",
                   ].map((skill) => (
                     <div key={skill} className="flex items-center">
-                      <div className="w-2 h-2 bg-[#17A2B8] rounded-full mr-3"></div>
-                      <span className="text-gray-700 font-medium">{skill}</span>
+                      <div className="w-2 h-2 bg-[#A8B79D] rounded-full mr-3"></div>
+                      <span className="text-[#465047] font-medium">{skill}</span>
                     </div>
                   ))}
                 </div>
@@ -268,7 +268,7 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path
                         strokeLinecap="round"
@@ -278,7 +278,7 @@ export default function HomePage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-[#0B3D91] mb-4">Engineering Expertise</h3>
+                  <h3 className="text-xl font-bold text-[#1D2721] mb-4">Engineering Expertise</h3>
                 </div>
                 <div className="space-y-3">
                   {[
@@ -290,8 +290,8 @@ export default function HomePage() {
                     "AI Automation",
                   ].map((skill) => (
                     <div key={skill} className="flex items-center">
-                      <div className="w-2 h-2 bg-[#17A2B8] rounded-full mr-3"></div>
-                      <span className="text-gray-700 font-medium">{skill}</span>
+                      <div className="w-2 h-2 bg-[#A8B79D] rounded-full mr-3"></div>
+                      <span className="text-[#465047] font-medium">{skill}</span>
                     </div>
                   ))}
                 </div>
@@ -302,7 +302,7 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path
                         strokeLinecap="round"
@@ -312,14 +312,14 @@ export default function HomePage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-[#0B3D91] mb-4">Professional Skills</h3>
+                  <h3 className="text-xl font-bold text-[#1D2721] mb-4">Professional Skills</h3>
                 </div>
                 <div className="space-y-3">
                   {["Problem-Solving", "Clear Communication", "Teamwork", "Presentations", "Strategic Thinking", "Detail Oriented"].map(
                     (skill) => (
                       <div key={skill} className="flex items-center">
-                        <div className="w-2 h-2 bg-[#17A2B8] rounded-full mr-3"></div>
-                        <span className="text-gray-700 font-medium">{skill}</span>
+                        <div className="w-2 h-2 bg-[#A8B79D] rounded-full mr-3"></div>
+                        <span className="text-[#465047] font-medium">{skill}</span>
                       </div>
                     ),
                   )}
@@ -334,8 +334,8 @@ export default function HomePage() {
       <section id="projects" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D91] mb-6">Featured Projects</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D2721] mb-6">Featured Projects</h2>
+            <p className="text-lg text-[#667267] max-w-3xl mx-auto">
               Explore my portfolio of chemical engineering projects spanning process design, simulation, sustainability,
               and advanced materials research.
             </p>
@@ -347,7 +347,7 @@ export default function HomePage() {
               <Link
                 key={index}
                 href={`/projects/${project.slug}`}
-                className="group block bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className="group block bg-[#FAFBF7] rounded-2xl shadow-lg shadow-[#1D2721]/8 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
                 <div
                   className={`h-48 overflow-hidden flex items-center justify-center ${
@@ -364,11 +364,11 @@ export default function HomePage() {
                 </div>
 
                 <CardContent className="p-6 flex flex-col h-full">
-                  <h3 className="text-xl font-bold text-[#0B3D91] mb-3 group-hover:text-[#17A2B8] transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-[#1D2721] mb-3 group-hover:text-[#A8B79D] transition-colors duration-300">
                     {project.title}
                   </h3>
 
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4 flex-grow">{project.summary}</p>
+                  <p className="text-[#667267] text-sm leading-relaxed mb-4 line-clamp-4 flex-grow">{project.summary}</p>
 
                   {/* Skills Tags */}
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -376,20 +376,20 @@ export default function HomePage() {
                       <Badge
                         key={skill}
                         variant="secondary"
-                        className="bg-[#17A2B8]/10 text-[#17A2B8] hover:bg-[#17A2B8]/20 text-xs"
+                        className="bg-[#A8B79D]/10 text-[#A8B79D] hover:bg-[#A8B79D]/20 text-xs"
                       >
                         {skill}
                       </Badge>
                     ))}
                     {project.skills.length > 3 && (
-                      <Badge variant="secondary" className="bg-gray-100 text-gray-600 text-xs">
+                      <Badge variant="secondary" className="bg-gray-100 text-[#667267] text-xs">
                         +{project.skills.length - 3} more
                       </Badge>
                     )}
                   </div>
 
                   {/* View Project Link */}
-                  <div className="flex items-center text-[#0B3D91] group-hover:text-[#17A2B8] transition-colors duration-300 mt-auto">
+                  <div className="flex items-center text-[#1D2721] group-hover:text-[#A8B79D] transition-colors duration-300 mt-auto">
                     <span className="text-sm font-semibold">View Project</span>
                     <ArrowRight className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
@@ -400,12 +400,12 @@ export default function HomePage() {
 
           {/* Call to Action */}
           <div className="text-center mt-16">
-            <p className="text-gray-600 mb-6">
+            <p className="text-[#667267] mb-6">
               Interested in learning more about my work or think I could be a good fit for your team?
             </p>
             <Button
               size="lg"
-              className="bg-[#0B3D91] hover:bg-[#17A2B8] text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+              className="bg-[#1D2721] hover:bg-[#A8B79D] text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
               Get In Touch
@@ -415,11 +415,11 @@ export default function HomePage() {
       </section>
 
       {/* Resume Section */}
-      <section id="resume" className="py-20 bg-gray-50">
+      <section id="resume" className="py-20 bg-[#F1F2EA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D91] mb-6">Resume</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D2721] mb-6">Resume</h2>
+            <p className="text-lg text-[#667267] max-w-3xl mx-auto mb-8">
               Download my complete resume and references or explore my educational background and professional experience below.
             </p>
             <div className="flex gap-4 justify-center">
@@ -431,7 +431,7 @@ export default function HomePage() {
               <Button
                   size="lg"
                   variant="outline"
-                  className="border-[#17A2B8] text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg bg-transparent"
+                  className="border-[#A8B79D] text-[#A8B79D] hover:bg-[#A8B79D] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg bg-transparent"
               >
                 <Download className="w-5 h-5 mr-2" />
                 Download Resume PDF
@@ -444,7 +444,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-[#17A2B8] text-[#17A2B8] hover:bg-[#17A2B8] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg bg-transparent"
+                  className="border-[#A8B79D] text-[#A8B79D] hover:bg-[#A8B79D] hover:text-white px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg bg-transparent"
                 >
                   <Download className="w-5 h-5 mr-2" />
                   Download References PDF
@@ -455,10 +455,10 @@ export default function HomePage() {
 
           {/* Interactive Timeline */}
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-[#0B3D91] mb-8 text-center">Education & Experience</h3>
+            <h3 className="text-2xl font-bold text-[#1D2721] mb-8 text-center">Education & Experience</h3>
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-[#17A2B8] rounded-full"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-[#A8B79D] rounded-full"></div>
 
               {timelineData.map((item, index) => (
                 <div
@@ -470,22 +470,22 @@ export default function HomePage() {
                       <CardContent className="p-6">
                         <div className="flex items-center mb-2">
                           <Badge
-                            className={`${item.type === "education" ? "bg-[#0B3D91]" : "bg-[#17A2B8]"} text-white mr-3`}
+                            className={`${item.type === "education" ? "bg-[#1D2721]" : "bg-[#A8B79D]"} text-white mr-3`}
                           >
                             {item.type === "education" ? "Education" : "Experience"}
                           </Badge>
                           <span className="text-sm font-semibold text-gray-500">{item.year}</span>
                         </div>
-                        <h4 className="text-lg font-bold text-[#0B3D91] mb-2">{item.title}</h4>
-                        <p className="text-[#17A2B8] font-semibold mb-3">{item.organization}</p>
-                        <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
+                        <h4 className="text-lg font-bold text-[#1D2721] mb-2">{item.title}</h4>
+                        <p className="text-[#A8B79D] font-semibold mb-3">{item.organization}</p>
+                        <p className="text-[#667267] text-sm leading-relaxed">{item.description}</p>
                       </CardContent>
                     </Card>
                   </div>
 
                   {/* Timeline dot */}
                   <div className="relative z-10">
-                    <div className="w-4 h-4 bg-[#17A2B8] rounded-full border-4 border-white shadow-lg"></div>
+                    <div className="w-4 h-4 bg-[#A8B79D] rounded-full border-4 border-white shadow-lg"></div>
                   </div>
 
                   <div className="w-1/2"></div>
@@ -500,8 +500,8 @@ export default function HomePage() {
       <section id="contact" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D91] mb-6">Get In Touch</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1D2721] mb-6">Get In Touch</h2>
+            <p className="text-lg text-[#667267] max-w-3xl mx-auto">
               I'm always interested in discussing new opportunities or answering questions about my work. Feel free to
               reach out!
             </p>
@@ -511,20 +511,20 @@ export default function HomePage() {
             {/* Contact Information */}
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mb-4">
                   <Mail className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
                 <a
                   href="mailto:anthonyzappala1@gmail.com"
-                  className="text-[#17A2B8] hover:text-[#138496] transition-colors"
+                  className="text-[#A8B79D] hover:text-[#879A7A] transition-colors"
                 >
                   anthonyzappala1@gmail.com
                 </a>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mb-4">
                   <Linkedin className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">LinkedIn</h4>
@@ -532,18 +532,18 @@ export default function HomePage() {
                   href="https://linkedin.com/in/anthony-zappala"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#17A2B8] hover:text-[#138496] transition-colors"
+                  className="text-[#A8B79D] hover:text-[#879A7A] transition-colors"
                 >
                   linkedin.com/in/anthony-zappala
                 </a>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 bg-[#0B3D91] rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#1D2721] rounded-full flex items-center justify-center mb-4">
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Phone</h4>
-                <a href="tel:508-530-8842" className="text-[#17A2B8] hover:text-[#138496] transition-colors">
+                <a href="tel:508-530-8842" className="text-[#A8B79D] hover:text-[#879A7A] transition-colors">
                   (508) 530-8842
                 </a>
               </div>
@@ -559,7 +559,7 @@ export default function HomePage() {
                   "Research Collaboration",
                   "Industry Consulting",
                 ].map((interest) => (
-                  <Badge key={interest} variant="secondary" className="bg-[#17A2B8]/10 text-[#17A2B8]">
+                  <Badge key={interest} variant="secondary" className="bg-[#A8B79D]/10 text-[#A8B79D]">
                     {interest}
                   </Badge>
                 ))}
@@ -570,26 +570,26 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0B3D91] text-white py-12">
+      <footer className="bg-[#1D2721] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Anthony Zappala</h3>
-            <p className="text-blue-200 mb-6">Automation | Process Improvement | Sustainability</p>
+            <p className="text-[#C7D3BF] mb-6">Automation | Process Improvement | Sustainability</p>
             <div className="flex justify-center space-x-6">
-              <a href="mailto:anthonyzappala1@gmail.com" className="text-blue-200 hover:text-white transition-colors">
+              <a href="mailto:anthonyzappala1@gmail.com" className="text-[#C7D3BF] hover:text-white transition-colors">
                 <Mail className="w-6 h-6" />
               </a>
               <a
                 href="https://linkedin.com/in/anthony-zappala"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-white transition-colors"
+                className="text-[#C7D3BF] hover:text-white transition-colors"
               >
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
-            <div className="mt-8 pt-8 border-t border-blue-800">
-              <p className="text-blue-200 text-sm">
+            <div className="mt-8 pt-8 border-t border-[#65755D]">
+              <p className="text-[#C7D3BF] text-sm">
                 © 2025 Anthony Zappala. All rights reserved. Built with Next.js and Tailwind CSS.
               </p>
             </div>
