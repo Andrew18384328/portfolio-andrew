@@ -509,10 +509,10 @@ export default function HomePage() {
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
                 <a
-                  href="mailto:anthonyzappala1@gmail.com"
+                  href="mailto:amante.a@northeastern.edu"
                   className="text-[#A8B79D] hover:text-[#879A7A] transition-colors"
                 >
-                  anthonyzappala1@gmail.com
+                  amante.a@northeastern.edu
                 </a>
               </div>
 
@@ -522,12 +522,12 @@ export default function HomePage() {
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">LinkedIn</h4>
                 <a
-                  href="https://linkedin.com/in/anthony-zappala"
+                  href="https://linkedin.com/in/andrew-amante"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#A8B79D] hover:text-[#879A7A] transition-colors"
                 >
-                  linkedin.com/in/anthony-zappala
+                  linkedin.com/in/andrew-amante 
                 </a>
               </div>
 
@@ -536,8 +536,8 @@ export default function HomePage() {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-2">Phone</h4>
-                <a href="tel:508-530-8842" className="text-[#A8B79D] hover:text-[#879A7A] transition-colors">
-                  (508) 530-8842
+                <a href="tel:508-492-9417" className="text-[#A8B79D] hover:text-[#879A7A] transition-colors">
+                  (508) 492-9417
                 </a>
               </div>
             </div>
