@@ -68,27 +68,27 @@ const projects = [
 
 const timelineData = [
   {
-    year: "2021-2022",
-    title: "Research Assistant",
-    organization: "Koppes LNNR Lab",
-    type: "Research",
-    description: "Designed and analyzed neuron signals in custom organ-on-chips. Earned 2 PEAK awards to complete research projects for organ-on-chip design.",
+    year: "August 2025 – December 2025",
+    title: "Electrical Engineer",
+    organization: "Northeastern Electric Racing",
+    type: "experience",
+    description: "Customized a steering wheel PCB in Altium with integrated microcontroller, buttons, and LEDs, for driver input and status indications.",
   },
   {
-    year: "2023",
-    title: "Electrochemical Engineering Co-op",
-    organization: "24M",
+    year: "August 2025 – December 2025",
+    title: "Electrical/Computer Engineer",
+    organization: "Great Combination Enterprise (GCE)",
     type: "experience",
     description:
-      "Screened and tested silicon-based battery materials, optimized slurry formulations, and automated data analysis with custom Python scripts",
+      "Worked on a student engineering team to automate air filter pleat separation, handling both the compaction mechanism and the 24V power distribution.",
   },
   {
-    year: "2024-2025",
-    title: "Process Engineering Co-op",
-    organization: "Technip Energies",
+    year: "January 2026 – June 2026",
+    title: "Electrical Engineering",
+    organization: "Lumafield",
     type: "experience",
     description:
-      "Reviewed key technical documents, performed equipment calculations, and streamlined process workflow with Python and SQL",
+      "Worked on a student engineering team to automate air filter pleat separation, handling both the compaction mechanism and the 24V power distribution.",
   },
   {
     year: "2025",
@@ -132,7 +132,7 @@ export default function HomePage() {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="font-bold text-xl text-[#1D2721] hover:text-[#A8B79D] transition-colors cursor-pointer"
             >
-              Anthony Zappala
+              Andrew Amante
             </button>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-[#465047] hover:text-[#1D2721] transition-colors">
@@ -166,7 +166,7 @@ export default function HomePage() {
                   <div className="w-80 h-auto md:w-96 md:h-auto rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl">
                     <img
                       src="/prof_headshot_cropped copy 2.png"
-                      alt="Anthony Zappala - Professional headshot of a chemical engineer"
+                      alt="Andrew Amante - Professional headshot of a computer engineer"
                       className="w-full h-auto object-contain"
                     />
                   </div>
@@ -178,10 +178,10 @@ export default function HomePage() {
             {/* Text Content */}
             <div className="text-center lg:text-left order-1 lg:order-2">
               <div className="opacity-0 animate-fade-in-up">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">Anthony Zappala</h1>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">Andrew Amante</h1>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-100">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-[#E1E8DA]">Chemical Engineer</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-[#E1E8DA]">Computer Engineer</h2>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-200">
                 <p className="text-lg md:text-xl lg:text-2xl mb-12 leading-relaxed text-[#EEF2E9]">
