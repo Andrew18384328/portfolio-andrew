@@ -174,7 +174,7 @@ export default function HomePage() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">Andrew Amante</h1>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-100">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-[#E1E8DA]">Computer Engineer</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-light mb-8 text-[#E1E8DA]">Computer Engineering</h2>
               </div>
               <div className="opacity-0 animate-fade-in-up animate-delay-200">
                 <p className="text-lg md:text-xl lg:text-2xl mb-12 leading-relaxed text-[#EEF2E9]">
